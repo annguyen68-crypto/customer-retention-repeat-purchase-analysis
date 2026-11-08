@@ -12,11 +12,17 @@ An online beauty store gets plenty of first-time buyers, but most never come bac
 
 **1. Most customers buy only once.** 69% of 17,415 customers (11,979) placed a single order, and only 31% placed a second one. In every quarterly cohort, only about 4–6% of new customers buy again in the following quarter.
 
+![Cohort retention by quarter](images/cohort_retention_heatmap.png)
+
 **2. The biggest loss is between the 1st and 2nd order.** Nearly 12,000 customers stop after their first order. After that, each step keeps roughly one third of customers (31–36%): 5,436 customers reach a 2nd order, 1,969 a 3rd, 658 a 4th and 201 a 5th.
+
+![Repeat-purchase funnel](images/repeat_purchase_funnel.png)
 
 **3. Customers come back slowly.** Among 12,780 customers with at least 12 months of history, only 4.6% placed a 2nd order within 90 days, 9.0% within 180 days and 17.8% within a year. The median time to the 2nd order is 402 days, so more than half of returning customers come back after more than a year.
 
 **4. Revenue is concentrated in a small group.** Using RFM, Champions are 8.0% of customers but bring in 19.0% of revenue; together with Loyal customers they are 11.3% of customers and 27.2% of revenue. New Customers and Potential Loyalists (about 32% of customers) bought recently and are the best candidates for a next order.
+
+![Share of customers and revenue by RFM segment](images/rfm_customers_vs_revenue.png)
 
 **5. Repeat buyers are more profitable and get smaller discounts.** Average profit per order rises from about 38.8 (1 order) to 56.8 (5+ orders), profit margin from 15.6% to 19.1%, while the average discount falls from 15% to 12%. This is an association, not proof that discounts do not drive repeat purchases.
 
@@ -91,3 +97,4 @@ A sample e-commerce dataset of a beauty store, covering 01/01/2020 – 31/12/202
 | `Customer_Retention_Repeat_Purchase_Analysis_English.ipynb` | Full analysis notebook (English) |
 | `Customer_Retention_Repeat_Purchase_Analysis_Vietnamese.ipynb` | Full analysis notebook (Vietnamese) |
 | `EcomSales.csv`, `Customer.csv`, `Product.csv`, `Region.csv` | The 4 data files used in the analysis |
+| `images/` | Charts used in this README |
