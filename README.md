@@ -6,6 +6,8 @@ An online beauty store gets plenty of first-time buyers, but most never come bac
 
 **Methods:** cohort retention · repeat-purchase funnel · RFM segmentation · A/B test design (break-even MDE, sample size, test duration)
 
+**Project report (PDF):** [Customer_Retention_Analysis_Report.pdf](Customer_Retention_Analysis_Report.pdf), a short summary of the data, approach, findings and recommendations.
+
 > The analysis is available in two languages: `Customer_Retention_Repeat_Purchase_Analysis_English.ipynb` and `Customer_Retention_Repeat_Purchase_Analysis_Vietnamese.ipynb` (same code and results).
 
 ## Key findings
