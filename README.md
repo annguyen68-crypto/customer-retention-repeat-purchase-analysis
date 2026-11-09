@@ -12,7 +12,7 @@ An online beauty store gets plenty of first-time buyers, but most never come bac
 
 ## Key findings
 
-**1. Most customers buy only once.** 69% of 17,415 customers (11,979) placed a single order, and only 31% placed a second one. In every quarterly cohort, only about 4–6% of new customers buy again in the following quarter.
+**1. Most customers buy only once.** 69% of 17,415 customers (11,979) placed a single order, and only 31% placed a second one. In most quarterly cohorts, only about 4–7% of new customers buy again in the following quarter.
 
 ![Cohort retention by quarter](images/cohort_retention_heatmap.png)
 
@@ -26,7 +26,7 @@ An online beauty store gets plenty of first-time buyers, but most never come bac
 
 ![Share of customers and revenue by RFM segment](images/rfm_customers_vs_revenue.png)
 
-**5. Repeat buyers are more profitable and get smaller discounts.** Average profit per order rises from about 38.8 (1 order) to 56.8 (5+ orders), profit margin from 15.6% to 19.1%, while the average discount falls from 15% to 12%. This is an association, not proof that discounts do not drive repeat purchases.
+**5. Repeat buyers are more profitable and get smaller discounts.** Average profit per order rises from about 38.8 (1 order) to 56.8 (5+ orders), profit margin from 15.6% (1 order) to about 19% (4+ orders), while the average discount falls from 15% to 12%. This is an association, not proof that discounts do not drive repeat purchases.
 
 **6. Segment and income do not separate repeat buyers from one-time buyers.** Corporate and Consumer customers return at similar rates, and average annual income is almost the same in every order-count group (55,000–58,000).
 
