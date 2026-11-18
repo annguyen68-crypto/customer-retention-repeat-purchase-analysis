@@ -26,7 +26,7 @@ An online beauty store gets plenty of first-time buyers, but most never come bac
 
 ![Share of customers and revenue by RFM segment](images/rfm_customers_vs_revenue.png)
 
-**5. Repeat buyers are more profitable and get smaller discounts.** Average profit per order rises from about 38.8 (1 order) to 56.8 (5+ orders), profit margin from 15.6% (1 order) to about 19% (4+ orders), while the average discount falls from 15% to 12%. This is an association, not proof that discounts do not drive repeat purchases.
+**5. Repeat buyers are more profitable and get smaller discounts.** Average profit per order rises from about 38.7 (1 order) to 56.8 (5+ orders), profit margin from 15.6% (1 order) to about 19% (4+ orders), while the average discount falls from 15% to 12%. This is an association, not proof that discounts do not drive repeat purchases.
 
 **6. Segment and income do not separate repeat buyers from one-time buyers.** Corporate and Consumer customers return at similar rates, and average annual income is almost the same in every order-count group (55,000–58,000).
 
@@ -40,9 +40,9 @@ Inputs: baseline 90-day repurchase rate 4.6%, average profit per order 41.4 USD,
 
 | Voucher | Break-even rate | MDE | Relative lift | Customers per group | Duration (incl. 90-day follow-up) |
 |---|---|---|---|---|---|
-| 5 USD | 5.3% | +0.6 pp | +13.7% | 18,187 | ~34 quarters |
-| 10 USD | 6.1% | +1.5 pp | +31.9% | 3,641 | ~7.7 quarters |
-| 15 USD | 7.3% | +2.6 pp | +56.8% | 1,250 | ~3.3 quarters |
+| 5 USD | 5.3% | +0.6 pp | +13.7% | 18,176 | ~34 quarters |
+| 10 USD | 6.1% | +1.5 pp | +31.9% | 3,639 | ~7.7 quarters |
+| 15 USD | 7.3% | +2.6 pp | +56.9% | 1,249 | ~3.3 quarters |
 
 A small voucher is easy to break even on but takes years to measure; a large voucher is quick to measure but needs a much bigger lift to be profitable. With the current number of new customers, only the 15 USD option gives a result within a year.
 
@@ -64,7 +64,7 @@ A small voucher is easy to break even on but takes years to measure; a large vou
 
 ## Workflow
 
-1. **Data preparation and cleaning:** checked missing values, duplicates and outliers in all 4 tables; standardised join keys with inconsistent formats; converted dates; joined the tables.
+1. **Data preparation and cleaning:** checked missing values, duplicates (including a content-based check that excludes `RowID`, which found and removed 9 duplicate lines) and outliers in all 4 tables; standardised join keys with inconsistent formats; converted dates; joined the tables.
 2. **Order and customer tables:** aggregated sales lines into one row per order (`orders`) and one row per customer (`cust`), with order sequence, first/last order date and total spend.
 3. **Overview:** distribution of customers by number of orders.
 4. **Cohort analysis:** retention by quarter of first purchase, overall and by segment (Corporate vs Consumer).
@@ -76,7 +76,7 @@ A small voucher is easy to break even on but takes years to measure; a large vou
 
 ## Data
 
-A sample e-commerce dataset of a beauty store, covering 01/01/2020 – 31/12/2023: 51,290 sales lines, 25,739 orders and 17,415 customers.
+A sample e-commerce dataset of a beauty store, covering 01/01/2020 – 31/12/2023: 51,290 sales lines (51,281 after removing 9 duplicate lines), 25,739 orders and 17,415 customers.
 
 | Table | Used for |
 |---|---|
